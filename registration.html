@@ -1,71 +1,58 @@
 <html>
-    <head>
-        <style>
-            input{
-                height: 35px;
-                margin-bottom: 10px;
-            }
-    * {
-        padding: 0;
-        margin: 0;
-    }
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin-right: 25px;
-        font-size: 23px;
-        font-weight: 550;
-    }
-</style>
+<head>
+    <title>Registration</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
 
-    </head>
-<body>
-    <header>
-        <nav
-            style="display: flex; align-items: center; justify-content: space-between; height: 130px; background-color: black; color: white;">
-            <div>
-                <h2>LOGO SCHOOL</h2>
-            </div>
-            <div>
-                <a href="home.html">Home</a>
-                <a href="reviews.html">Reviews</a>
-                <a href="teachers.html">Teachers</a>
-                <a href="event.html">Events</a>
-                <a href="courses.html">Courses</a>
-                <a href="registration.html">Registration</a>
-            </div>
-        </nav>
-    </header>
-    <h1 align="center" style="margin: 20px;">Please Complete Your Registration. Fill up the form below: </h1>
-    <div style="display: flex; justify-content: center;">
-        <form style="display: flex; flex-direction: column;">
-            <label for="">Student Name: </label>
-            <input style="width: 600px;" type="text" placeholder="Enter full name">
-            <label for="">Father's Name: </label>
-            <input type="text" placeholder="Enter father's name">
-            <label for="">Mother's Name: </label>
-            <input type="text" placeholder="Enter mother's name">
-            <label for="">Date of birth: </label>
-            <input type="date">
-            <label for="">Gender</label>
-            <div>
-                <input type="radio" name="gen"> Male
+<body style="margin: 0;">
+<header>
+    <nav
+        style="display: flex; align-items: center; justify-content: space-between; height: 110px; background-color: black; color: white;">
+        <div>
+            <h1>Rajshahi Collegiate School</h1>
+        </div>
+        <div>
+            <a style="color: white; margin-right: 20px;" href="home.html">Home</a>
+            <a style=" color: white; margin-right: 20px;" href="reviews.html">Reviews</a>
+            <a style=" color: white; margin-right: 20px;" href="teachers.html">Teachers</a>
+            <a style=" color: white; margin-right: 20px;" href="event.html">Events</a>
+            <a style=" color: white; margin-right: 20px;" href="courses.html">Courses</a>
+            <a style=" color: white; margin-right: 20px;" href="registration.html">Registration</a>
+            <a style=" color: white; margin-right: 20px;" href="about.html">About</a>
+        </div>
+    </nav>
+</header>
+    <h1 align="center">Please Complete Your Registration. Fill up the form below: </h1>
+    <center>
+        <form style="display: flex; flex-direction: column; width: 650px;">
+            <label for="" align="left">Student Name: </label>
+            <input type="text" placeholder="Enter full name" style="height: 45px;">
+            <label align="left" for="">Father's Name: </label>
+            <input type="text" placeholder="Enter father's name" style="height: 45px;">
+            <label align="left" for="">Mother's Name: </label>
+            <input type="text" placeholder="Enter mother's name" style="height: 45px;">
+            <label align="left" for="">Date of birth: </label>
+            <input type="date" style="height: 45px;">
+            <label align="left" for="">Gender</label>
+            <div align="left">
+                <input type="radio" name="gen" > Male
                 <input type="radio" name="gen"> Female
             </div>
-            <label for="">Email: </label>
-            <input type="email" placeholder="Enter your email">
-            <label for="">Phone: </label>
-            <input type="number" placeholder="Enter phone number">
-            <label for="">Address</label>
-            <input type="text" placeholder="Enter your address">
-            <label for="">City</label>
-            <input type="text" placeholder="Your city">
-            <label>Upload Photo:</label>
+            <label align="left" for="">Email: </label>
+            <input type="email" placeholder="Enter your email" style="height: 45px;">
+            <label align="left" for="">Phone: </label>
+            <input type="number" placeholder="Enter phone number" style="height: 45px;">
+            <label align="left" for="">Address</label>
+            <input type="text" placeholder="Enter your address" style="height: 45px;">
+            <label align="left" for="">City</label>
+            <input type="text" placeholder="Your city" style="height: 45px;">
+            <label align="left">Upload Photo:</label>
             <input type="file"> <br>
-            <input type="button" value="Submit">
+            <input type="button" value="Submit" style="height: 45px;">
         </form>
-    </div>
+    </center>
+
 </body>
 
 </html>
