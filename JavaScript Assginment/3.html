@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .items{
+                display: flex;
+                flex-direction: column;
+                width: 600px;
+            }
+            .container{
+                display: grid;
+                place-items: center;
+            }
+            .items input, button,select{
+                width: 400px;
+                margin-top: 20px;
+                height: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="items">
+                <input type="number" name="" id="num1">
+                <input type="number" name="" id="num2">
+                <select id="select-operation">
+                    <option value="Sum">Sum</option>
+                    <option value="Subtraction">Subtraction</option>
+                    <option value="Multiplication">Multiplication</option>
+                    <option value="Division">Division</option>
+                </select>
+                <button id="btn">Result</button>
+                <h1 id="result"></h1>
+            </div>
+        </div>
+        <script src="3.js">
+        </script>
+    </body>
+</html>
